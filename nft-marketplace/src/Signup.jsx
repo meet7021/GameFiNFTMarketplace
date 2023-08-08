@@ -18,8 +18,8 @@ function Signup() {
         <div className="d-flex justify-content-center align-items-center bg-warning vh-100">
             <div className="bg-white p-3 rounded w-25">
                 <h2>Register to the platform</h2>
-                <form>
-                    {/* <form onSubmit={handleSubmit}> */}
+
+                <form onSubmit={handleSubmit}>
                     <div className="mb-3">
                         <label htmlFor="email">
                             <strong>User Name</strong>
