@@ -33,11 +33,12 @@ app.post('/login', (req, res) => {
                 else {
                     return res.json("The password is incorrect")
                 }
-            })
-} else {
-    return res.json("No record existed")
-}
-    })
+            }
+
+            else {
+                return res.json("No record existed")
+            }
+        })
 })
 
 
